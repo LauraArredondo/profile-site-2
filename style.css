@@ -1,50 +1,19 @@
-/*to restart margins*/
-* {margin: 0;
-padding: 0;
-box-sizing: border-box;
+body{
+  background-image: url("background2.jpg");
 }
 
-/*icons remain stuck on the screen and on the right side*/
-.social {
-  position: fixed;
-  left: 0;
-  top: 200px;
-  z-index: 2000; /*icons would always be at the top*/
-
+header{
+  text-align: center;
 }
 
-.social ul {
-  list-style: none;
+img {
+  height:300px;
+  box-shadow: 10px 10px 20px black;
+}
+h1{
+  font-size: 50px;
 }
 
-/*to edit element a*/
-.social ul li a {
-  display: inline-block;
-  color: white;
-  background: black;
-  padding: 10px 15px;
-  text-decoration: none;
-}
-
-/*color*/
-.social ul li .icon-facebook2 {
-  background:blue;
-}
-
-.social ul li .icon-instagram {
-  background:
-}
-
-.social ul li .icon-linkedin {
-  background:
-}
-
-.social ul li .icon-github {
-  background:
-}
-
- /*animation*/
-.social ul li a:hover {
-  padding: 10px 30px;
-  background: black;
+.email:hover{
+  color: brown;
 }

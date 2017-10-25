@@ -1,0 +1,54 @@
+
+/*icons remain stuck on the screen and on the right side*/
+.social {
+  position: fixed; /*to stay fixed on the screen*/
+  right:0;
+  top: 35%;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 2000; /*icons would always be at the top*/
+  align-items: flex-end; /*align to the bottom*/
+}
+
+/*icon general color*/
+.icon {
+  color:white;
+  text-decoration: none;
+  padding: .7rem;
+  display:flex;
+  transition: all .5s;  /*animation*/
+}
+
+/*color*/
+.icon-facebook2 {
+  background:#3b5998;
+}
+
+.icon-instagram {
+  background:#bc2a8d;
+}
+
+.icon-linkedin {
+  background:#007bb6;
+}
+
+.icon-github {
+  background: #333;
+}
+
+/*to create border and if we add another
+icon always the first and the last will have the border */
+.icon:first-child{
+  border-radius: 1rem 0 0;
+}
+.icon:last-child {
+  border-radius: 0 0 0 1rem;
+}
+
+ /*animation*/
+.icon:hover {
+  padding: 10px 30px;
+  border-radius:1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem black;
+}
